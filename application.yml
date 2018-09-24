@@ -1,0 +1,18 @@
+management:
+  security:
+    enabled: false
+
+security:
+  basic:
+    enabled: false
+
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
+
+logging:
+  level:
+    com:
+      xoriant:
+        demo: INFO
