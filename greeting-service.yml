@@ -1,7 +1,3 @@
-fortune-service:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
-
 greeting:
   displayFortune: true
   from: "Spring Clound Config Server Refreshed"
