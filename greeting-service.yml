@@ -6,4 +6,4 @@
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
 
 greeting:
-    from: Spring Clound Config Server Refreshed
+    from: Spring Clound Config Server Refreshed Test
