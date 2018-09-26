@@ -1,4 +1,4 @@
 greeting:
   displayFortune: true
-  from: Spring Clound Config Server Refreshed
+  from: Spring Clound - Read parameters from Config Server
   secret: NO ENCRPTED SECRET - USING IN DEV ENV
