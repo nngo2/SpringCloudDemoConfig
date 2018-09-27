@@ -16,10 +16,3 @@ logging:
     com:
       xoriant:
         demo: INFO
-        
-encrypt:
-  keyStore:
-    location: classpath:/config-server.jks
-    password: xori@nt-p@ss
-    alias: config-server-key
-    secret: xori@nt-p@ss  
