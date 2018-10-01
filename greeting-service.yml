@@ -1,4 +1,4 @@
 greeting:
   displayFortune: true
-  from: Spring Cloud Microservices - Test Configurations...
+  from: Spring Cloud Microservices - Test Configurations
   secret: NO ENCRPTED SECRET - USING IN DEV ENV
