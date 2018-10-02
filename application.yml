@@ -9,7 +9,7 @@ security:
 spring:
   cloud:
     services:
-      registrationMethod: route
+      registrationMethod: direct
 
 logging:
   level:
