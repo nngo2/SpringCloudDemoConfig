@@ -10,7 +10,21 @@ spring:
   cloud:
     services:
       registrationMethod: route
-      
+             
+logging:
+  level:
+    com:
+      xoriant:
+        demo: INFO
+        
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000           
+
 ribbon:
   eureka:
     enabled: true
@@ -19,16 +33,3 @@ ribbon:
   ReadTimeout: 5000
   ConnectTimeout: 10000
   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 30000          
-logging:
-  level:
-    com:
-      xoriant:
-        demo: INFO
