@@ -28,8 +28,6 @@ hystrix:
 ribbon:
   eureka:
     enabled: true
-  MaxAutoRetries: 3
-  MaxAutoRetriesNextServer: 1
   ReadTimeout: 5000
-  ConnectTimeout: 10000
+  ConnectTimeout: 5000
   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
