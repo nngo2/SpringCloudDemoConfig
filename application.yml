@@ -28,6 +28,7 @@ hystrix:
 ribbon:
   eureka:
     enabled: true
+  IsSecure: true  
   ReadTimeout: 5000
   ConnectTimeout: 5000
   NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
